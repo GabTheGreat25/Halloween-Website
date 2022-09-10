@@ -1,0 +1,121 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.header{
+	margin-top:-20px;
+	position: relative;
+}
+
+
+body {
+	background-image: url('css/cssimages/blood_love.jpg');
+	background-position: center; 
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+	font-family: "Trebuchet MS";
+}
+
+.container {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border-left: 200px;	
+}
+
+.ir{
+overflow: hidden;
+text-indent: 100%;
+white-space: nowrap;
+}
+
+.right {
+  	min-height: 100px;
+	background: transparent url("css/cssimages/halloween.gif") no-repeat right top;
+	position: absolute;
+	width: 100%;
+	top: 20px;
+	left: -25px;
+
+}
+
+.background{
+	position: relative;
+	background-color: white;
+	width: 640px;
+	padding: 30px;
+	margin-top: -4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	float: left;
+}
+
+.H{
+	float: left;
+	padding-right: 8px;
+	height: 75px;
+	display: inline-block;
+}
+
+p{
+	text-align: justify;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16.5px;
+}
+
+.border{
+	float: right;
+	border: 2px solid #6C0D09;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: -5px;
+	margin-left: 10px;
+	display: inline;
+}
+
+.History{
+	position: relative;
+	float: left;
+	top: 0px;	
+}
+
+.ForImage{
+	width: 305px;
+	height: 60px;
+}
+
+.Text{
+	position: absolute;
+	color: #D54F18;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	top: 10px;
+	left: 20px;
+}
+
+.Spacing{
+	text-indent: 2em;
+}
+
+.Last{
+	margin-bottom:-20px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.Created{
+	width: 100%;
+	bottom: 5px;
+	position: absolute;
+}
